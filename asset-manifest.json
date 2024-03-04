@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Keerthy-Portfolio/static/css/main.25ca9eb9.css",
+    "main.js": "/Keerthy-Portfolio/static/js/main.a55dcdbc.js",
+    "static/media/HeroImage.jpeg": "/Keerthy-Portfolio/static/media/HeroImage.d217805397d660b27cf5.jpeg",
+    "index.html": "/Keerthy-Portfolio/index.html",
+    "main.25ca9eb9.css.map": "/Keerthy-Portfolio/static/css/main.25ca9eb9.css.map",
+    "main.a55dcdbc.js.map": "/Keerthy-Portfolio/static/js/main.a55dcdbc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.25ca9eb9.css",
+    "static/js/main.a55dcdbc.js"
+  ]
+}
