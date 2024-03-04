@@ -6,7 +6,8 @@ export const Bio = {
   description:
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/Keerthybaby",
-  resume: "https://firebasestorage.googleapis.com/v0/b/portfolio-images-f2524.appspot.com/o/resume%20(2).pdf?alt=media&token=dad94bd9-0a2b-426f-9c95-160adcb0e370",
+  resume:
+    "https://firebasestorage.googleapis.com/v0/b/portfolio-images-f2524.appspot.com/o/resume%20(3).pdf?alt=media&token=189b4eab-63cc-4b35-b84a-b87f33046c1b",
   linkedin: "https://www.linkedin.com/in/keerthy-baby-56b176222/",
 };
 
@@ -222,13 +223,6 @@ export const projects = [
     category: "web app",
     github: "https://github.com/Keerthybaby/React-Firebase-Project",
   },
-  
-  
-  
-  
-  
-  
-  
 ];
 
 export const TimeLineData = [
