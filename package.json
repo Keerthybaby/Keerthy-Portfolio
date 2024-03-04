@@ -1,4 +1,5 @@
 {
+  "homepage":"https://Keerthybaby.github.io/Keerthy-Portfolio",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
@@ -17,7 +18,6 @@
     "emailjs": "^4.0.3",
     "emailjs-com": "^3.2.0",
     "framer-motion": "^11.0.5",
-    "gh-pages": "^3.2.3",
     "maath": "^0.10.7",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -35,6 +35,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -58,6 +60,7 @@
     ]
   },
   "devDependencies": {
-    "dotenv": "^16.4.5"
+    "dotenv": "^16.4.5",
+    "gh-pages": "^6.1.1"
   }
 }
