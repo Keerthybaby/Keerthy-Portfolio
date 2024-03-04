@@ -16,7 +16,11 @@ const Container = styled.div`
   position: relative;
   z-index: 1;
   align-items: center;
-  padding:0px 20px;
+  padding: 40px 0px 80px 0px;
+
+  @media (max-width:960px){
+    padding:0px;
+  }
 `;
 
 const Wrapper = styled.div`
@@ -76,7 +80,7 @@ const Experience = () => {
         <TimeLineSection>
           <Timeline>
           {experiences.map((experience,index) => (
-            <TimelineItem>
+            <TimelineItem key={index}>
               <TimelineSeparator>
                 <TimelineDot variant="outlined" color="secondary"/>
                   {index !== experiences.length -1 && <TimelineConnector/>}

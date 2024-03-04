@@ -6,7 +6,7 @@ export const Bio = {
   description:
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/Keerthybaby",
-  resume: "",
+  resume: "https://firebasestorage.googleapis.com/v0/b/portfolio-images-f2524.appspot.com/o/resume%20(2).pdf?alt=media&token=dad94bd9-0a2b-426f-9c95-160adcb0e370",
   linkedin: "https://www.linkedin.com/in/keerthy-baby-56b176222/",
 };
 
@@ -63,6 +63,21 @@ export const skills = [
         name: "Firebase",
         image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
       },
+      {
+        name: "C",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/C_Programming_Language.svg/695px-C_Programming_Language.svg.png",
+      },
+      {
+        name: "C++",
+        image:
+          "https://www.shutterstock.com/image-vector/emblem-c-plus-programming-language-600nw-1764554240.jpg",
+      },
+      {
+        name: "Java",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
+      },
     ],
   },
 
@@ -102,19 +117,124 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    
+
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6Qbbgb_VnFwkuli-l-cGnggxZZIbbjAV1WOFkfaeUFo4lXn98qsC6krPPD4JBYxT287E&usqp=CAU",
-    role: "Frontend Developer Intern",
+    role: "Software Developer Intern",
     company: "Nintriva",
     date: "Jan 2023 - Feb 2023",
-    desc: "Build a contact management module using Angular.",
-    skills: [
-      "Angular",
-      "TypeScript",
-      "HTML",
-      "CSS",
+    desc: "Developed a robust contact management web application using Angular and TypeScript. Gained hands-on experience in working with modern front-end technologies and develop interactive and responsive front-end components.",
+    skills: ["Angular", "TypeScript", "HTML", "CSS"],
+    doc: "https://firebasestorage.googleapis.com/v0/b/portfolio-images-f2524.appspot.com/o/internship-certificate_page-0001.jpg?alt=media&token=882be0ff-0805-482f-8f41-72cf924979a2",
+  },
+];
+
+export const education = [
+  {
+    id: 0,
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRq5nb2hWhVdtosBiCaYGS7BFrOIgI-xxeOxKos82h5IA&s",
+    school: "Rajagiri College of Social Sciences (Autonomous), Kalamassery",
+    date: "Aug 2021 - April 2023",
+    degree: "Master of Computer Applications",
+  },
+  {
+    id: 1,
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnEdisxowGz3nCGg2DD3Dg3yp7tlOLHXqs4V6_5JzDjw&s",
+    school: "Rajagiri College of Management and Applied Sciences, Kakkanad",
+    date: "July 2018 - Aug 2021",
+
+    degree: "Bachelor of Computer Application",
+  },
+  {
+    id: 2,
+    img: "https://viswadeeptividyalaya.com/wp-content/uploads/2021/05/Optimized-logo-PNG.png",
+    school: "Viswadeepti Vidyalaya Public School - Chirayam, Panayikulam",
+    date: "Apr 2017 - Apr 2019",
+
+    degree: "CBSC(XII), Computer Science ",
+  },
+];
+
+export const projects = [
+  {
+    id: 0,
+    title: "Movie Reviews App",
+    date: "Jan 2024",
+    description:
+      "Movie App is a web application using Redux React Toolkit, where a user can view a variety of movies, series, and their ratings. Users also have the option to click on a movie or series to explore more details about that movie or series.",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/portfolio-images-f2524.appspot.com/o/Screenshot%20(145).png?alt=media&token=8cd5420b-82ec-4316-81b1-79029834ed4a",
+    tags: [
+      "React Js",
+      "Redux",
+      "Axios",
+      "Redux Thunk",
+      "Styled Components",
+      "OMDB API",
     ],
-    doc: "",
+    category: "web app",
+    github: "https://github.com/Keerthybaby/Redux-Movie-App",
+    webapp: "https://trackify.duckdns.org",
+  },
+  {
+    id: 1,
+    title: "Memories",
+    date: "Jan 2024 - Feb 2024",
+    description:
+      "MERN Memories is a full-stack web application built using the MERN (MongoDB, Express.js, React.js, Node.js) stack. It allows users to create, store, and share their favorite memories with others.",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/portfolio-images-f2524.appspot.com/o/Screenshot%20(148).png?alt=media&token=91048384-3e1e-4171-8d7a-e489cc4358db",
+    tags: [
+      "React Js",
+      "MongoDb",
+      "Node Js",
+      "Express Js",
+      "Redux",
+      "JWT",
+      "Axios",
+    ],
+    category: "web app",
+    github: "https://github.com/Keerthybaby/MERN-Social-Media-App",
+    webapp: "https://podstream.netlify.app/",
+    member: [
+      {
+        name: "Rishav Chanda",
+        img: "https://avatars.githubusercontent.com/u/64485885?v=4",
+        linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
+        github: "https://github.com/rishavchanda/",
+      },
+      {
+        name: "Upasana Chaudhuri",
+        img: "https://avatars.githubusercontent.com/u/100614635?v=4",
+        linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
+        github: "https://github.com/upasana0710",
+      },
+    ],
+  },
+  {
+    id: 3,
+    title: "Social Media App",
+    date: "Dec 2023",
+    description:
+      "The Social Media App is a simple web app built with React.js and Firebase. It enables users to compose text-based posts and browse posts shared by others. It uses Google Authentication for direct sign-in.",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/portfolio-images-f2524.appspot.com/o/Screenshot%20(149).png?alt=media&token=f66f1e81-87ff-4667-833f-967f36ac10c5",
+    tags: ["React Js", "Firebase"],
+    category: "web app",
+    github: "https://github.com/Keerthybaby/React-Firebase-Project",
   },
   
+  
+  
+  
+  
+  
+  
+];
+
+export const TimeLineData = [
+  { year: 2017, text: "Started my journey" },
+  { year: 2018, text: "Worked as a freelance developer" },
+  { year: 2019, text: "Founded JavaScript Mastery" },
+  { year: 2020, text: "Shared my projects with the world" },
+  { year: 2021, text: "Started my own platform" },
 ];
