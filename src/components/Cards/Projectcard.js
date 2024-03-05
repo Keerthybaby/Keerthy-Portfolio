@@ -120,6 +120,24 @@ const GithubLogo = styled(FaGithub)`
   }
 `;
 
+const Button = styled.a`
+width:300px;
+  font-size: 14px;
+  font-weight: 500;
+  color: ${({ theme }) => theme.text_primary};
+  background-color: ${({ theme }) => theme.primary};
+  border: none;
+  border-radius: 5px;
+  padding: 8px 1px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+
+  &:hover {
+    background-color: ${({ theme }) => theme.primary + 50};
+  }
+`;
+
 const Projectcard = ({project}) => {
   return (
     <Card>
@@ -137,8 +155,16 @@ const Projectcard = ({project}) => {
         <Description>{project.description}</Description>
         
       </Details>
-      
+      <div style={{display:"flex",gap:"200px"}}>
       <a href={project.github} target="_blank"><GithubLogo/></a>
+      
+      {project.liveapp && (
+          <Button href={project.liveapp} target="_blank">
+            Live App
+          </Button>
+        )}
+      
+      </div>
       
       {/* <Members>
         {project.member?.map((member,index) => (

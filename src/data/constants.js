@@ -127,6 +127,17 @@ export const experiences = [
     skills: ["Angular", "TypeScript", "HTML", "CSS"],
     doc: "https://firebasestorage.googleapis.com/v0/b/portfolio-images-f2524.appspot.com/o/internship-certificate_page-0001.jpg?alt=media&token=882be0ff-0805-482f-8f41-72cf924979a2",
   },
+  {
+    id: 1,
+
+    img: "https://engg.cambridge.edu.in/wp-content/uploads/2023/07/SIH.png",
+    role: "SIH Finalist 2022",
+    company: "",
+    date: "Aug 2022",
+    desc: "Participate as a team member in the AICTE Smart India Hackathon 2022 Grand Finale .",
+   
+    doc: "https://firebasestorage.googleapis.com/v0/b/portfolio-images-f2524.appspot.com/o/sih.jpg?alt=media&token=dd44ca2e-5332-476b-b6fc-2261fa0fdc30",
+  },
 ];
 
 export const education = [
@@ -174,7 +185,8 @@ export const projects = [
     ],
     category: "web app",
     github: "https://github.com/Keerthybaby/Redux-Movie-App",
-    webapp: "https://trackify.duckdns.org",
+   
+    liveapp:"https://comfy-frangollo-0b7044.netlify.app/",
   },
   {
     id: 1,
@@ -195,7 +207,7 @@ export const projects = [
     ],
     category: "web app",
     github: "https://github.com/Keerthybaby/MERN-Social-Media-App",
-    webapp: "https://podstream.netlify.app/",
+    
     member: [
       {
         name: "Rishav Chanda",
@@ -225,10 +237,10 @@ export const projects = [
   },
 ];
 
-export const TimeLineData = [
-  { year: 2017, text: "Started my journey" },
-  { year: 2018, text: "Worked as a freelance developer" },
-  { year: 2019, text: "Founded JavaScript Mastery" },
-  { year: 2020, text: "Shared my projects with the world" },
-  { year: 2021, text: "Started my own platform" },
-];
+// export const TimeLineData = [
+//   { year: 2017, text: "Started my journey" },
+//   { year: 2018, text: "Worked as a freelance developer" },
+//   { year: 2019, text: "Founded JavaScript Mastery" },
+//   { year: 2020, text: "Shared my projects with the world" },
+//   { year: 2021, text: "Started my own platform" },
+// ];

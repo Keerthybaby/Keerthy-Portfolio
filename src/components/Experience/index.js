@@ -75,7 +75,7 @@ const Experience = () => {
   return (
     <Container id="experience">
       <Wrapper>
-        <Title>Experience</Title>
+        <Title>Experience and Awards</Title>
         <Desc>My work experience as a software engineer </Desc>
         <TimeLineSection>
           <Timeline>
