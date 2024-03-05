@@ -7,7 +7,7 @@ export const Bio = {
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/Keerthybaby",
   resume:
-    "https://firebasestorage.googleapis.com/v0/b/portfolio-images-f2524.appspot.com/o/resume%20(3).pdf?alt=media&token=189b4eab-63cc-4b35-b84a-b87f33046c1b",
+    "https://firebasestorage.googleapis.com/v0/b/portfolio-images-f2524.appspot.com/o/resume%20(3).pdf?alt=media&token=e2b68677-3e64-4fde-b745-1242cfb4d0a1",
   linkedin: "https://www.linkedin.com/in/keerthy-baby-56b176222/",
 };
 
@@ -190,12 +190,12 @@ export const projects = [
   },
   {
     id: 1,
-    title: "Memories",
+    title: "Flashbackfolio",
     date: "Jan 2024 - Feb 2024",
     description:
-      "MERN Memories is a full-stack web application built using the MERN (MongoDB, Express.js, React.js, Node.js) stack. It allows users to create, store, and share their favorite memories with others.",
+      "Flashbackfolio is a full-stack web application built using the MERN (MongoDB, Express.js, React.js, Node.js) stack. It allows users to create, store, and share their favorite memories with others.",
     image:
-      "https://firebasestorage.googleapis.com/v0/b/portfolio-images-f2524.appspot.com/o/Screenshot%20(148).png?alt=media&token=91048384-3e1e-4171-8d7a-e489cc4358db",
+      "https://firebasestorage.googleapis.com/v0/b/portfolio-images-f2524.appspot.com/o/memories.png?alt=media&token=e19475ac-4231-4466-a827-e9c951819939",
     tags: [
       "React Js",
       "MongoDb",
@@ -208,20 +208,8 @@ export const projects = [
     category: "web app",
     github: "https://github.com/Keerthybaby/MERN-Social-Media-App",
     
-    member: [
-      {
-        name: "Rishav Chanda",
-        img: "https://avatars.githubusercontent.com/u/64485885?v=4",
-        linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-        github: "https://github.com/rishavchanda/",
-      },
-      {
-        name: "Upasana Chaudhuri",
-        img: "https://avatars.githubusercontent.com/u/100614635?v=4",
-        linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
-        github: "https://github.com/upasana0710",
-      },
-    ],
+    
+
   },
   {
     id: 3,

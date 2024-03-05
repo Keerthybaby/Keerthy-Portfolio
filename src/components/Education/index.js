@@ -77,7 +77,7 @@ const Education = () => {
     <Container id="education">
       <Wrapper>
         <Title>Education</Title>
-        <Desc>My education has been a journey of self-discovery and  </Desc>
+        <Desc>My education has been a journey of self-discovery and growth. My educational details are as follows.</Desc>
         <TimeLineSection>
           <Timeline>
           {education.map((education,index) => (
