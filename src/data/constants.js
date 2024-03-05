@@ -7,7 +7,7 @@ export const Bio = {
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/Keerthybaby",
   resume:
-    "https://firebasestorage.googleapis.com/v0/b/portfolio-images-f2524.appspot.com/o/resume%20(3).pdf?alt=media&token=e2b68677-3e64-4fde-b745-1242cfb4d0a1",
+    "https://firebasestorage.googleapis.com/v0/b/portfolio-images-f2524.appspot.com/o/resume%20(4).pdf?alt=media&token=8ce187d6-0697-49f6-b86a-94f80ee0ce67",
   linkedin: "https://www.linkedin.com/in/keerthy-baby-56b176222/",
 };
 
@@ -134,7 +134,7 @@ export const experiences = [
     role: "SIH Finalist 2022",
     company: "",
     date: "Aug 2022",
-    desc: "Participate as a team member in the AICTE Smart India Hackathon 2022 Grand Finale .",
+    desc: "Participated as a team member in the AICTE Smart India Hackathon 2022 Grand Finale.",
    
     doc: "https://firebasestorage.googleapis.com/v0/b/portfolio-images-f2524.appspot.com/o/sih.jpg?alt=media&token=dd44ca2e-5332-476b-b6fc-2261fa0fdc30",
   },
