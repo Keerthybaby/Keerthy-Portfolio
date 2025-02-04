@@ -144,6 +144,7 @@ const MobileMenu = styled.div`
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   opacity: ${({ open }) => (open ? "100%" : "0")};
   z-index: ${({ open }) => (open ? "1000" : "-1000")};
+  backdrop-filter: blur(10px);
 `;
 
 const MobileMenuLinks = styled(LinkR)`

@@ -7,7 +7,7 @@ export const Bio = {
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/Keerthybaby",
   resume:
-    "https://firebasestorage.googleapis.com/v0/b/portfolio-images-f2524.appspot.com/o/resume%20(4).pdf?alt=media&token=8ce187d6-0697-49f6-b86a-94f80ee0ce67",
+    "https://firebasestorage.googleapis.com/v0/b/portfolio-images-f2524.appspot.com/o/Keerthy_Baby.pdf?alt=media&token=20926e63-f462-4a86-a11e-f97b90744ac3",
   linkedin: "https://www.linkedin.com/in/keerthy-baby-56b176222/",
 };
 
@@ -15,6 +15,11 @@ export const skills = [
   {
     title: "Frontend",
     skills: [
+      {
+        name: "Next Js",
+        image:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSV9uzErWz9EXqZDxZ5lP9aYpMz8eK6rr5X3w&s",
+      },
       {
         name: "React Js",
         image:
@@ -34,6 +39,11 @@ export const skills = [
         name: "CSS",
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
+      },
+      {
+        name: "Tailwind",
+        image:
+          "https://codekitapp.com/images/help/free-tailwind-icon@2x.png",
       },
       {
         name: "JavaScript",
@@ -101,6 +111,12 @@ export const skills = [
         image:
           "https://seeklogo.com/images/N/netlify-logo-BD8F8A77E2-seeklogo.com.png",
       },
+      
+      {
+        name: "Vercel",
+        image:
+          "https://assets.vercel.com/image/upload/v1588805858/repositories/vercel/logo.png",
+      },
       {
         name: "VS Code",
         image:
@@ -119,6 +135,17 @@ export const experiences = [
   {
     id: 0,
 
+    img: "https://firebasestorage.googleapis.com/v0/b/portfolio-images-f2524.appspot.com/o/i4.png?alt=media&token=a77754e9-20cf-4f9b-9ca9-ab57ea595012",
+    role: "Frontend Developer",
+    company: "i4interface",
+    date: "Apr 2024 - Present",
+    desc: "Frontend developer experienced in building projects with React.js, Next.js, Tailwind, HTML, and CSS. Proficient in developing responsive websites with a focus on user-friendly design.",
+    skills: ["Next.js", "React.js", "HTML","Tailwind", "CSS"],
+    
+  },
+  {
+    id: 1,
+
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6Qbbgb_VnFwkuli-l-cGnggxZZIbbjAV1WOFkfaeUFo4lXn98qsC6krPPD4JBYxT287E&usqp=CAU",
     role: "Software Developer Intern",
     company: "Nintriva",
@@ -128,7 +155,7 @@ export const experiences = [
     doc: "https://firebasestorage.googleapis.com/v0/b/portfolio-images-f2524.appspot.com/o/internship-certificate_page-0001.jpg?alt=media&token=882be0ff-0805-482f-8f41-72cf924979a2",
   },
   {
-    id: 1,
+    id: 2,
 
     img: "https://engg.cambridge.edu.in/wp-content/uploads/2023/07/SIH.png",
     role: "SIH Finalist 2022",

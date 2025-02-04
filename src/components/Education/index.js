@@ -23,6 +23,9 @@ const Container = styled.div`
   @media (max-width:960px){
     padding:0px;
   }
+  @media (max-width: 768px) {
+    padding:10px;
+    }
 `;
 
 const Wrapper = styled.div`
@@ -34,6 +37,7 @@ const Wrapper = styled.div`
   align-items: center;
   width: 100%;
   gap: 12px;
+ 
 `;
 
 const Title = styled.div`
@@ -71,7 +75,12 @@ const TimeLineSection = styled.div`
   align-items: center;
   justify-content: center;
   gap: 12px;
+  
 `;
+
+
+
+
 const Education = () => {
   return (
     <Container id="education">
@@ -84,7 +93,8 @@ const Education = () => {
             <TimelineItem key={index}>
               
               <TimelineContent sx={{py:"12px" ,px:2 }}>
-               <EducationCard education={education} >Hi </EducationCard>
+               {/* <EducationCard education={education} >Hi </EducationCard> */}
+               <EducationCard education={education} />
               </TimelineContent>
               <TimelineSeparator>
                 <TimelineDot variant="outlined" color="secondary"/>

@@ -14,6 +14,9 @@ const Container = styled.div`
   @media (max-width: 960px) {
     padding: 0px;
   }
+  @media (max-width: 768px) {
+    padding:10px;
+    }
 `;
 
 const Wrapper = styled.div`

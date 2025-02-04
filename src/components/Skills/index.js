@@ -139,6 +139,7 @@ const Skills = () => {
                 {item.skills.map((skill,idx) => (
                   <SkillItem key={idx}>
                     <SkillImage src={skill.image} />
+                    
                     {skill.name}
                   </SkillItem>
                 ))}
